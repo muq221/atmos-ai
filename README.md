@@ -1,7 +1,7 @@
 # Atmos AI
 
 ## Overview
-Atmos AI is a basic data engineering project that tracks how data changes over time.
+Atmos AI is a basic data engineering project that tracks how WEATHER data changes over time.
 
 ## Features
 - Collects real-time data
