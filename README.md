@@ -1,7 +1,7 @@
 <h1 align="center"> Atmos AI</h1>
 
 <p align="center">
-  <b><i>Decoding the unseen.</i>i></b>
+  <b><i>Decoding the unseen.</i></b>
 </p>
 
 <p align="center">
