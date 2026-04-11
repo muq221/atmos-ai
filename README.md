@@ -12,7 +12,7 @@ Version 1 — Teaching the system to remember before it predicts.
 
 ## Overview
 
-Atmos AI is a foundational atmospheric intelligence system that focuses on understanding how environmental data evolves over time.
+Atmos AI's v1 is a foundational atmospheric intelligence system that focuses on understanding how environmental data evolves over time.
 
 By capturing real-time data, creating time-based memory snapshots, and computing data drift, the system moves beyond simple data collection to uncover patterns of change. These insights are stored in a cloud-based infrastructure using Firebase, enabling scalability and real-time accessibility.
 
