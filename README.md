@@ -1,16 +1,14 @@
 <h1 align="center"> Atmos AI</h1>
-
 <p align="center">
   <b><i>Decoding the unseen.</i></b>
 </p>
 
-<p align="center">
-  <b>Version 1 — Teaching the system to remember before it predicts.</b>
-</p>
 
 <p align="center">
    Data Engineering • Atmospheric Intelligence • Future AI System
 </p>
+
+Version 1 — Teaching the system to remember before it predicts.
 
 ## Overview
 
