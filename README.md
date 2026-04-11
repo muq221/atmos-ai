@@ -1,5 +1,5 @@
 # Atmos AI
-   The Sky, Decoded.
+Predicting the Sky.
 
 Version 1 — Teaching the system to remember before it predicts.
 
