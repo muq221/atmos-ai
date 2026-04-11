@@ -1,5 +1,7 @@
 # Atmos AI
-###The Sky, Decoded.
+   The Sky, Decoded.
+
+Version 1 — Teaching the system to remember before it predicts.
 
 ## Overview
 
@@ -8,8 +10,6 @@ Atmos AI is a foundational atmospheric intelligence system that focuses on under
 By capturing real-time data, creating time-based memory snapshots, and computing data drift, the system moves beyond simple data collection to uncover patterns of change. These insights are stored in a cloud-based infrastructure using Firebase, enabling scalability and real-time accessibility.
 
 This version serves as the initial layer of a larger vision — to develop an AI-powered platform capable of predicting atmospheric changes, detecting anomalies, and supporting decision-making in critical sectors such as aviation and weather analytics.
-
-Version 1 — Teaching the system to remember before it predicts.
 
 ## Features
 - Collects real-time data
