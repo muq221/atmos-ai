@@ -7,7 +7,8 @@
 <p align="center">
    Data Engineering • Atmospheric Intelligence • Future AI System
 </p>
-
+<br>
+<br>
 
 Version 1 — Teaching the system to remember before it predicts.
 
