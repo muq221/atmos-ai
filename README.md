@@ -1,15 +1,15 @@
-<h1 align="center">🌌 Atmos AI</h1>
+<h1 align="center"> Atmos AI</h1>
 
 <p align="center">
-  <b>Predicting the Sky.</b>
+  <b><i>Decoding the unseen.</i>i></b>
 </p>
 
 <p align="center">
-  <i>Version 1 — Teaching the system to remember before it predicts.</i>
+  <b>Version 1 — Teaching the system to remember before it predicts.</b>
 </p>
 
 <p align="center">
-  ☁️ Data Engineering • 📊 Atmospheric Intelligence • 🤖 Future AI System
+   Data Engineering • Atmospheric Intelligence • Future AI System
 </p>
 
 ## Overview
