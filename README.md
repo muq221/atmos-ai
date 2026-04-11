@@ -1,7 +1,16 @@
-# Atmos AI
-Predicting the Sky.
+<h1 align="center">🌌 Atmos AI</h1>
 
-Version 1 — Teaching the system to remember before it predicts.
+<p align="center">
+  <b>Predicting the Sky.</b>
+</p>
+
+<p align="center">
+  <i>Version 1 — Teaching the system to remember before it predicts.</i>
+</p>
+
+<p align="center">
+  ☁️ Data Engineering • 📊 Atmospheric Intelligence • 🤖 Future AI System
+</p>
 
 ## Overview
 
