@@ -1,3 +1,6 @@
+# Atmos AI - Data Drift Monitoring System
+# This project collects weather data, compares changes over time,
+# detects data drift, and stores results in cloud (Firebase)
 {
   "nbformat": 4,
   "nbformat_minor": 0,
