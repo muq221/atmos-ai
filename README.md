@@ -27,10 +27,10 @@ The system detects and classifies data changes and stores them in the cloud.
 ## Screenshots
 
 ### Data Fetch
-(screenshots/data_fetch.jpg)
+![Data Fetch](screenshots/1_data_fetch.jpg)
 
 ### Drift Detection
-![Drift](screenshots/drift.png)
+![Drift](screenshots/4_drift.jpg)
 
 ### Cloud Storage
-![Firebase](screenshots/firebase.png)
+![Firebase](screenshots/6_firebase.jpg)
