@@ -23,3 +23,14 @@ The system detects and classifies data changes and stores them in the cloud.
 - Real-time automation
 - AI-based prediction
 - Web dashboard
+
+## Screenshots
+
+### Data Fetch
+(screenshots/data_fetch.jpg)
+
+### Drift Detection
+![Drift](screenshots/drift.png)
+
+### Cloud Storage
+![Firebase](screenshots/firebase.png)
