@@ -1,0 +1,5 @@
+{
+ "icao": "VIDP",
+ "text": "VIDP Delhi - 11 Dec 06:00 IST\nNow: LIFR, visibility 320 m (fog), ceiling 110 ft, wind 286/01 kt, temp 10/9 C, QNH 1015.\nNext 3 h: MVFR expected (47% confidence). Best runway 28 - headwind 1 kt, crosswind 0 kt.\nAdvisory: ADVERSE (score 70/100) - Currently LIFR - visibility 320 m; MVFR expected within 3 h.\nAction: low-visibility procedures likely; brief alternates and carry extra holding fuel.",
+ "advisory_level": "ADVERSE"
+}

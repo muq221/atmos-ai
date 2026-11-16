@@ -1,0 +1,35 @@
+{
+ "icao": "VOBL",
+ "valid_for_hours": 3,
+ "predicted_category": "VFR",
+ "confidence": 0.693,
+ "level": "CAUTION",
+ "score": 40,
+ "reasons": [
+  "Currently IFR - visibility 4.4 km",
+  "Improving to VFR within 3 h"
+ ],
+ "runway": {
+  "best": {
+   "runway": "09",
+   "heading": 90,
+   "headwind_kt": 2.4,
+   "crosswind_kt": 0.6
+  },
+  "all": [
+   {
+    "runway": "09",
+    "heading": 90,
+    "headwind_kt": 2.4,
+    "crosswind_kt": 0.6
+   },
+   {
+    "runway": "27",
+    "heading": 270,
+    "headwind_kt": -2.4,
+    "crosswind_kt": 0.6
+   }
+  ]
+ },
+ "density_altitude_ft": 3898
+}

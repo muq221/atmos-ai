@@ -1,0 +1,86 @@
+[
+ {
+  "icao": "VOHS",
+  "iata": "HYD",
+  "name": "Rajiv Gandhi International",
+  "city": "Hyderabad",
+  "lat": 17.2403,
+  "lon": 78.4294,
+  "elevation_m": 617,
+  "runways": [
+   "09",
+   "27"
+  ]
+ },
+ {
+  "icao": "VIDP",
+  "iata": "DEL",
+  "name": "Indira Gandhi International",
+  "city": "Delhi",
+  "lat": 28.5562,
+  "lon": 77.1,
+  "elevation_m": 237,
+  "runways": [
+   "10",
+   "28",
+   "11",
+   "29"
+  ]
+ },
+ {
+  "icao": "VABB",
+  "iata": "BOM",
+  "name": "Chhatrapati Shivaji Maharaj International",
+  "city": "Mumbai",
+  "lat": 19.0896,
+  "lon": 72.8656,
+  "elevation_m": 11,
+  "runways": [
+   "09",
+   "27",
+   "14",
+   "32"
+  ]
+ },
+ {
+  "icao": "VOBL",
+  "iata": "BLR",
+  "name": "Kempegowda International",
+  "city": "Bengaluru",
+  "lat": 13.1986,
+  "lon": 77.7066,
+  "elevation_m": 915,
+  "runways": [
+   "09",
+   "27"
+  ]
+ },
+ {
+  "icao": "VOMM",
+  "iata": "MAA",
+  "name": "Chennai International",
+  "city": "Chennai",
+  "lat": 12.9941,
+  "lon": 80.1709,
+  "elevation_m": 16,
+  "runways": [
+   "07",
+   "25",
+   "12",
+   "30"
+  ]
+ },
+ {
+  "icao": "VECC",
+  "iata": "CCU",
+  "name": "Netaji Subhas Chandra Bose International",
+  "city": "Kolkata",
+  "lat": 22.6547,
+  "lon": 88.4467,
+  "elevation_m": 5,
+  "runways": [
+   "01",
+   "19"
+  ]
+ }
+]

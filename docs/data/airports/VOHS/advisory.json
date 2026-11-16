@@ -1,0 +1,34 @@
+{
+ "icao": "VOHS",
+ "valid_for_hours": 3,
+ "predicted_category": "VFR",
+ "confidence": 0.92,
+ "level": "NORMAL",
+ "score": 0,
+ "reasons": [
+  "No significant weather expected"
+ ],
+ "runway": {
+  "best": {
+   "runway": "09",
+   "heading": 90,
+   "headwind_kt": 4.2,
+   "crosswind_kt": 2.1
+  },
+  "all": [
+   {
+    "runway": "09",
+    "heading": 90,
+    "headwind_kt": 4.2,
+    "crosswind_kt": 2.1
+   },
+   {
+    "runway": "27",
+    "heading": 270,
+    "headwind_kt": -4.2,
+    "crosswind_kt": 2.1
+   }
+  ]
+ },
+ "density_altitude_ft": 2636
+}

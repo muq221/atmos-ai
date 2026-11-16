@@ -1,7 +1,7 @@
 name: Refresh live data
-# Pulls the latest 90 days from Open-Meteo every day at 00:30 IST and retrains.
+# Pulls the latest 90 days of real data from Open-Meteo and retrains.
+# Run it from the Actions tab -> "Refresh live data" -> "Run workflow".
 on:
-  schedule: [{ cron: "0 19 * * *" }]
   workflow_dispatch:
 jobs:
   refresh:

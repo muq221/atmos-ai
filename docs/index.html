@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <script>window.ATMOS_STATIC = true;</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atmos AI · Aviation Weather Intelligence</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="static/styles.css">
+  <script src="static/vendor/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="none" stroke="#4cc9f0" stroke-width="2"/><path d="M6 19c4-5 8-5 10-2s6 3 10-2" fill="none" stroke="#4cc9f0" stroke-width="2" stroke-linecap="round"/><path d="M8 13c3-3 6-3 8-1s5 2 8-1" fill="none" stroke="#2d7d99" stroke-width="2" stroke-linecap="round"/></svg>
+      <div><b>ATMOS AI</b><span>Weather intelligence for aviation</span></div>
+    </div>
+    <div class="meta">
+      <span class="pill" id="mode">—</span>
+      <span class="pill" id="clock">—</span>
+      <a class="pill link" href="/docs" target="_blank">API docs ↗</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="panel network">
+      <h3>Airport network</h3>
+      <div class="legend">
+        <span><i style="background:var(--vfr)"></i>VFR</span><span><i style="background:var(--mvfr)"></i>MVFR</span>
+        <span><i style="background:var(--ifr)"></i>IFR</span><span><i style="background:var(--lifr)"></i>LIFR</span>
+      </div>
+      <div class="net-head"><span>Airport</span><span>Now</span><span>+3 h</span></div>
+      <ul id="network"></ul>
+      <div class="model-box" id="modelbox"></div>
+    </aside>
+
+    <section class="content">
+      <div class="airport-head">
+        <div>
+          <h1 id="ap-title">—</h1>
+          <p id="ap-sub">—</p>
+        </div>
+        <div class="advisory" id="advisory">
+          <div class="adv-level" id="adv-level">—</div>
+          <div class="adv-score" id="adv-score"></div>
+        </div>
+      </div>
+      <ul class="reasons" id="reasons"></ul>
+
+      <div class="cards" id="cards"></div>
+
+      <div class="grid2">
+        <div class="panel chart">
+          <h3>Visibility — observed vs model (+3 h)</h3>
+          <canvas id="visChart"></canvas>
+        </div>
+        <div class="panel chart">
+          <h3>Flight-category probability (+3 h)</h3>
+          <canvas id="catChart"></canvas>
+        </div>
+      </div>
+      <div class="grid2">
+        <div class="panel chart">
+          <h3>Wind, gusts &amp; thunderstorm risk</h3>
+          <canvas id="windChart"></canvas>
+        </div>
+        <div class="panel split">
+          <div>
+            <h3>Runway wind components</h3>
+            <table id="runways"><thead><tr><th>RWY</th><th>Head/Tail</th><th>Cross</th></tr></thead><tbody></tbody></table>
+          </div>
+          <div>
+            <h3>Crew / dispatch briefing</h3>
+            <pre id="briefing">—</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+ "icao": "VIDP",
+ "time": "2025-12-11T06:00:00",
+ "flight_category": "LIFR",
+ "temperature_c": 9.9,
+ "dewpoint_c": 9.1,
+ "humidity_pct": 95,
+ "qnh_hpa": 1015,
+ "visibility_m": 320,
+ "ceiling_ft": 110,
+ "cloud_cover_pct": 100,
+ "wind_direction_deg": 286,
+ "wind_speed_kt": 1,
+ "wind_gust_kt": 1,
+ "precip_mm": 0.0,
+ "cape_jkg": 0,
+ "weather_code": 45,
+ "density_altitude_ft": 314
+}

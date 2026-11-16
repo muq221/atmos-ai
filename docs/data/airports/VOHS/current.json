@@ -1,0 +1,19 @@
+{
+ "icao": "VOHS",
+ "time": "2025-12-11T06:00:00",
+ "flight_category": "VFR",
+ "temperature_c": 15.9,
+ "dewpoint_c": 14.0,
+ "humidity_pct": 88,
+ "qnh_hpa": 1012,
+ "visibility_m": 8090,
+ "ceiling_ft": null,
+ "cloud_cover_pct": 56,
+ "wind_direction_deg": 117,
+ "wind_speed_kt": 5,
+ "wind_gust_kt": 7,
+ "precip_mm": 0.0,
+ "cape_jkg": 0,
+ "weather_code": 2,
+ "density_altitude_ft": 2636
+}

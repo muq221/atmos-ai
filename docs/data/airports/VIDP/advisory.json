@@ -1,0 +1,47 @@
+{
+ "icao": "VIDP",
+ "valid_for_hours": 3,
+ "predicted_category": "MVFR",
+ "confidence": 0.471,
+ "level": "ADVERSE",
+ "score": 70,
+ "reasons": [
+  "Currently LIFR - visibility 320 m",
+  "MVFR expected within 3 h"
+ ],
+ "runway": {
+  "best": {
+   "runway": "28",
+   "heading": 280,
+   "headwind_kt": 1.1,
+   "crosswind_kt": 0.1
+  },
+  "all": [
+   {
+    "runway": "28",
+    "heading": 280,
+    "headwind_kt": 1.1,
+    "crosswind_kt": 0.1
+   },
+   {
+    "runway": "29",
+    "heading": 290,
+    "headwind_kt": 1.1,
+    "crosswind_kt": 0.1
+   },
+   {
+    "runway": "10",
+    "heading": 100,
+    "headwind_kt": -1.1,
+    "crosswind_kt": 0.1
+   },
+   {
+    "runway": "11",
+    "heading": 110,
+    "headwind_kt": -1.1,
+    "crosswind_kt": 0.1
+   }
+  ]
+ },
+ "density_altitude_ft": 314
+}

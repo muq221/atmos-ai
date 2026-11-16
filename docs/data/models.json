@@ -1,0 +1,131 @@
+{
+ "trained_at": "2026-11-16T13:49:28+00:00",
+ "data_source": "sample",
+ "horizon_hours": 3,
+ "train_period": [
+  "2024-01-01",
+  "2025-08-31 23:00"
+ ],
+ "test_period": [
+  "2025-09-01",
+  "2025-12-31 23:00"
+ ],
+ "rows": {
+  "train": 87660,
+  "test": 17568
+ },
+ "n_features": 48,
+ "category": {
+  "best_model": "random_forest",
+  "comparison": {
+   "persistence (no model)": {
+    "accuracy": 0.7834,
+    "macro_f1": 0.4485,
+    "recall_ifr_or_worse": 0.3884,
+    "per_class_recall": {
+     "VFR": 0.8879,
+     "MVFR": 0.2239,
+     "IFR": 0.2352,
+     "LIFR": 0.4477
+    }
+   },
+   "logistic_regression": {
+    "accuracy": 0.6166,
+    "macro_f1": 0.4314,
+    "recall_ifr_or_worse": 0.5506,
+    "per_class_recall": {
+     "VFR": 0.6215,
+     "MVFR": 0.7361,
+     "IFR": 0.4511,
+     "LIFR": 0.4842
+    },
+    "train_seconds": 2.5
+   },
+   "random_forest": {
+    "accuracy": 0.8515,
+    "macro_f1": 0.5707,
+    "recall_ifr_or_worse": 0.4365,
+    "per_class_recall": {
+     "VFR": 0.9399,
+     "MVFR": 0.4989,
+     "IFR": 0.275,
+     "LIFR": 0.4678
+    },
+    "train_seconds": 35.2
+   },
+   "gradient_boosting": {
+    "accuracy": 0.6899,
+    "macro_f1": 0.4958,
+    "recall_ifr_or_worse": 0.6221,
+    "per_class_recall": {
+     "VFR": 0.7055,
+     "MVFR": 0.7333,
+     "IFR": 0.5018,
+     "LIFR": 0.5233
+    },
+    "train_seconds": 14.7
+   }
+  },
+  "confusion_matrix": [
+   [
+    13649,
+    420,
+    344,
+    108
+   ],
+   [
+    594,
+    711,
+    81,
+    39
+   ],
+   [
+    440,
+    119,
+    228,
+    42
+   ],
+   [
+    261,
+    94,
+    67,
+    371
+   ]
+  ],
+  "labels": [
+   "VFR",
+   "MVFR",
+   "IFR",
+   "LIFR"
+  ]
+ },
+ "visibility": {
+  "mae_m": 2183,
+  "mae_m_persistence": 3379,
+  "mae_m_when_below_5km": 5082,
+  "mae_m_when_below_5km_persistence": 5693
+ },
+ "thunder": {
+  "roc_auc": 0.9255,
+  "pr_auc": 0.2629,
+  "brier": 0.0127,
+  "base_rate": 0.0149
+ },
+ "top_features_category": {
+  "cloud_low_pct": 0.0499,
+  "visibility_m": 0.0471,
+  "log_vis": 0.0438,
+  "humidity_pct": 0.0414,
+  "spread_c": 0.0404,
+  "dewpoint_c": 0.0289,
+  "doy_cos": 0.0283,
+  "cloud_cover_pct": 0.0279,
+  "temperature_c": 0.0269,
+  "log_vis_d6h": 0.0265,
+  "temperature_c_d6h": 0.026,
+  "cape_jkg": 0.0252,
+  "doy_sin": 0.0245,
+  "pressure_msl_hpa": 0.0244,
+  "cape_max_6h": 0.0237
+ }
+}

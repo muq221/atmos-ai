@@ -1,0 +1,477 @@
+[
+ {
+  "issued_from": "2025-12-11T06:00:00",
+  "valid_time": "2025-12-11T09:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.693,
+   "MVFR": 0.222,
+   "IFR": 0.07,
+   "LIFR": 0.015
+  },
+  "predicted_visibility_m": 9430,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 3,
+  "wind_gust_kt": 3,
+  "wind_direction_deg": 76,
+  "temperature_c": 15.7,
+  "observed_category": "IFR",
+  "visibility_m": 4420
+ },
+ {
+  "issued_from": "2025-12-11T07:00:00",
+  "valid_time": "2025-12-11T10:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.974,
+   "MVFR": 0.006,
+   "IFR": 0.021,
+   "LIFR": 0.0
+  },
+  "predicted_visibility_m": 12560,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 5,
+  "wind_gust_kt": 7,
+  "wind_direction_deg": 92,
+  "temperature_c": 16.9,
+  "observed_category": "MVFR",
+  "visibility_m": 6580
+ },
+ {
+  "issued_from": "2025-12-11T08:00:00",
+  "valid_time": "2025-12-11T11:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 1.0,
+   "MVFR": 0.0,
+   "IFR": 0.0,
+   "LIFR": 0.0
+  },
+  "predicted_visibility_m": 14690,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 4,
+  "wind_gust_kt": 6,
+  "wind_direction_deg": 88,
+  "temperature_c": 18.4,
+  "observed_category": "VFR",
+  "visibility_m": 9730
+ },
+ {
+  "issued_from": "2025-12-11T09:00:00",
+  "valid_time": "2025-12-11T12:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.993,
+   "MVFR": 0.003,
+   "IFR": 0.0,
+   "LIFR": 0.004
+  },
+  "predicted_visibility_m": 16090,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 5,
+  "wind_gust_kt": 8,
+  "wind_direction_deg": 78,
+  "temperature_c": 20.2,
+  "observed_category": "VFR",
+  "visibility_m": 11870
+ },
+ {
+  "issued_from": "2025-12-11T10:00:00",
+  "valid_time": "2025-12-11T13:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 1.0,
+   "MVFR": 0.0,
+   "IFR": 0.0,
+   "LIFR": 0.0
+  },
+  "predicted_visibility_m": 16860,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 4,
+  "wind_gust_kt": 6,
+  "wind_direction_deg": 91,
+  "temperature_c": 21.3,
+  "observed_category": "VFR",
+  "visibility_m": 11110
+ },
+ {
+  "issued_from": "2025-12-11T11:00:00",
+  "valid_time": "2025-12-11T14:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 1.0,
+   "MVFR": 0.0,
+   "IFR": 0.0,
+   "LIFR": 0.0
+  },
+  "predicted_visibility_m": 17600,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 7,
+  "wind_gust_kt": 12,
+  "wind_direction_deg": 99,
+  "temperature_c": 22.6,
+  "observed_category": "VFR",
+  "visibility_m": 16640
+ },
+ {
+  "issued_from": "2025-12-11T12:00:00",
+  "valid_time": "2025-12-11T15:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.983,
+   "MVFR": 0.007,
+   "IFR": 0.009,
+   "LIFR": 0.0
+  },
+  "predicted_visibility_m": 18580,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 7,
+  "wind_gust_kt": 11,
+  "wind_direction_deg": 111,
+  "temperature_c": 23.8,
+  "observed_category": "VFR",
+  "visibility_m": 14040
+ },
+ {
+  "issued_from": "2025-12-11T13:00:00",
+  "valid_time": "2025-12-11T16:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.997,
+   "MVFR": 0.0,
+   "IFR": 0.003,
+   "LIFR": 0.0
+  },
+  "predicted_visibility_m": 19330,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 7,
+  "wind_gust_kt": 11,
+  "wind_direction_deg": 117,
+  "temperature_c": 25.1,
+  "observed_category": "VFR",
+  "visibility_m": 18110
+ },
+ {
+  "issued_from": "2025-12-11T14:00:00",
+  "valid_time": "2025-12-11T17:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.989,
+   "MVFR": 0.004,
+   "IFR": 0.007,
+   "LIFR": 0.0
+  },
+  "predicted_visibility_m": 19340,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 7,
+  "wind_gust_kt": 10,
+  "wind_direction_deg": 108,
+  "temperature_c": 25.5,
+  "observed_category": "VFR",
+  "visibility_m": 16800
+ },
+ {
+  "issued_from": "2025-12-11T15:00:00",
+  "valid_time": "2025-12-11T18:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.975,
+   "MVFR": 0.0,
+   "IFR": 0.007,
+   "LIFR": 0.018
+  },
+  "predicted_visibility_m": 15560,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 9,
+  "wind_gust_kt": 15,
+  "wind_direction_deg": 105,
+  "temperature_c": 25.0,
+  "observed_category": "VFR",
+  "visibility_m": 15400
+ },
+ {
+  "issued_from": "2025-12-11T16:00:00",
+  "valid_time": "2025-12-11T19:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.979,
+   "MVFR": 0.003,
+   "IFR": 0.0,
+   "LIFR": 0.019
+  },
+  "predicted_visibility_m": 15990,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 9,
+  "wind_gust_kt": 12,
+  "wind_direction_deg": 130,
+  "temperature_c": 25.0,
+  "observed_category": "VFR",
+  "visibility_m": 19150
+ },
+ {
+  "issued_from": "2025-12-11T17:00:00",
+  "valid_time": "2025-12-11T20:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.971,
+   "MVFR": 0.004,
+   "IFR": 0.003,
+   "LIFR": 0.022
+  },
+  "predicted_visibility_m": 14870,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 7,
+  "wind_gust_kt": 12,
+  "wind_direction_deg": 116,
+  "temperature_c": 24.3,
+  "observed_category": "VFR",
+  "visibility_m": 14560
+ },
+ {
+  "issued_from": "2025-12-11T18:00:00",
+  "valid_time": "2025-12-11T21:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.968,
+   "MVFR": 0.019,
+   "IFR": 0.003,
+   "LIFR": 0.01
+  },
+  "predicted_visibility_m": 14640,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 9,
+  "wind_gust_kt": 13,
+  "wind_direction_deg": 102,
+  "temperature_c": 23.8,
+  "observed_category": "VFR",
+  "visibility_m": 18920
+ },
+ {
+  "issued_from": "2025-12-11T19:00:00",
+  "valid_time": "2025-12-11T22:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.975,
+   "MVFR": 0.0,
+   "IFR": 0.0,
+   "LIFR": 0.025
+  },
+  "predicted_visibility_m": 12900,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 7,
+  "wind_gust_kt": 12,
+  "wind_direction_deg": 96,
+  "temperature_c": 22.3,
+  "observed_category": "VFR",
+  "visibility_m": 16210
+ },
+ {
+  "issued_from": "2025-12-11T20:00:00",
+  "valid_time": "2025-12-11T23:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.962,
+   "MVFR": 0.009,
+   "IFR": 0.009,
+   "LIFR": 0.02
+  },
+  "predicted_visibility_m": 11570,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 7,
+  "wind_gust_kt": 11,
+  "wind_direction_deg": 91,
+  "temperature_c": 21.3,
+  "observed_category": "VFR",
+  "visibility_m": 15000
+ },
+ {
+  "issued_from": "2025-12-11T21:00:00",
+  "valid_time": "2025-12-12T00:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.928,
+   "MVFR": 0.052,
+   "IFR": 0.007,
+   "LIFR": 0.013
+  },
+  "predicted_visibility_m": 11060,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 8,
+  "wind_gust_kt": 11,
+  "wind_direction_deg": 92,
+  "temperature_c": 20.0,
+  "observed_category": "VFR",
+  "visibility_m": 13510
+ },
+ {
+  "issued_from": "2025-12-11T22:00:00",
+  "valid_time": "2025-12-12T01:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.717,
+   "MVFR": 0.248,
+   "IFR": 0.018,
+   "LIFR": 0.017
+  },
+  "predicted_visibility_m": 9860,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 5,
+  "wind_gust_kt": 8,
+  "wind_direction_deg": 97,
+  "temperature_c": 18.6,
+  "observed_category": "VFR",
+  "visibility_m": 11920
+ },
+ {
+  "issued_from": "2025-12-11T23:00:00",
+  "valid_time": "2025-12-12T02:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.545,
+   "MVFR": 0.406,
+   "IFR": 0.007,
+   "LIFR": 0.042
+  },
+  "predicted_visibility_m": 9220,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 4,
+  "wind_gust_kt": 6,
+  "wind_direction_deg": 100,
+  "temperature_c": 17.2,
+  "observed_category": "VFR",
+  "visibility_m": 12650
+ },
+ {
+  "issued_from": "2025-12-12T00:00:00",
+  "valid_time": "2025-12-12T03:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.717,
+   "MVFR": 0.221,
+   "IFR": 0.014,
+   "LIFR": 0.048
+  },
+  "predicted_visibility_m": 9000,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 5,
+  "wind_gust_kt": 6,
+  "wind_direction_deg": 98,
+  "temperature_c": 16.3,
+  "observed_category": "VFR",
+  "visibility_m": 13750
+ },
+ {
+  "issued_from": "2025-12-12T01:00:00",
+  "valid_time": "2025-12-12T04:00:00",
+  "predicted_category": "MVFR",
+  "probabilities": {
+   "VFR": 0.414,
+   "MVFR": 0.493,
+   "IFR": 0.026,
+   "LIFR": 0.067
+  },
+  "predicted_visibility_m": 8560,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 3,
+  "wind_gust_kt": 4,
+  "wind_direction_deg": 98,
+  "temperature_c": 15.7,
+  "observed_category": "VFR",
+  "visibility_m": 9690
+ },
+ {
+  "issued_from": "2025-12-12T02:00:00",
+  "valid_time": "2025-12-12T05:00:00",
+  "predicted_category": "MVFR",
+  "probabilities": {
+   "VFR": 0.374,
+   "MVFR": 0.499,
+   "IFR": 0.073,
+   "LIFR": 0.054
+  },
+  "predicted_visibility_m": 8900,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 4,
+  "wind_gust_kt": 6,
+  "wind_direction_deg": 97,
+  "temperature_c": 14.8,
+  "observed_category": "VFR",
+  "visibility_m": 8590
+ },
+ {
+  "issued_from": "2025-12-12T03:00:00",
+  "valid_time": "2025-12-12T06:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.438,
+   "MVFR": 0.398,
+   "IFR": 0.096,
+   "LIFR": 0.068
+  },
+  "predicted_visibility_m": 7500,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 3,
+  "wind_gust_kt": 4,
+  "wind_direction_deg": 86,
+  "temperature_c": 14.6,
+  "observed_category": "MVFR",
+  "visibility_m": 7370
+ },
+ {
+  "issued_from": "2025-12-12T04:00:00",
+  "valid_time": "2025-12-12T07:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.647,
+   "MVFR": 0.286,
+   "IFR": 0.037,
+   "LIFR": 0.031
+  },
+  "predicted_visibility_m": 9850,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 2,
+  "wind_gust_kt": 4,
+  "wind_direction_deg": 79,
+  "temperature_c": 14.8,
+  "observed_category": "MVFR",
+  "visibility_m": 7230
+ },
+ {
+  "issued_from": "2025-12-12T05:00:00",
+  "valid_time": "2025-12-12T08:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.989,
+   "MVFR": 0.003,
+   "IFR": 0.004,
+   "LIFR": 0.003
+  },
+  "predicted_visibility_m": 13100,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 3,
+  "wind_gust_kt": 5,
+  "wind_direction_deg": 91,
+  "temperature_c": 15.6,
+  "observed_category": "VFR",
+  "visibility_m": 9450
+ },
+ {
+  "issued_from": "2025-12-12T06:00:00",
+  "valid_time": "2025-12-12T09:00:00",
+  "predicted_category": "VFR",
+  "probabilities": {
+   "VFR": 0.996,
+   "MVFR": 0.0,
+   "IFR": 0.004,
+   "LIFR": 0.0
+  },
+  "predicted_visibility_m": 14750,
+  "thunderstorm_probability": 0.0,
+  "wind_speed_kt": 5,
+  "wind_gust_kt": 7,
+  "wind_direction_deg": 91,
+  "temperature_c": 16.6,
+  "observed_category": "VFR",
+  "visibility_m": 12270
+ }
+]

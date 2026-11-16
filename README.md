@@ -6,7 +6,12 @@ runway-wind advisories** for six major Indian airports, served through a REST AP
 Built as the final project of the **AICTE · IBM SkillsBuild Machine Learning & Applied AI Internship 2026**
 (BharatCares, 24 Aug – 30 Sep 2026) by **Abdul Muqsit Mohammed**, B.E. CSE, MJCET Hyderabad.
 
-![dashboard](docs/dashboard.png)
+**Live demo:** https://muq221.github.io/atmos-ai/ &nbsp;·&nbsp; **API docs:** https://muq221.github.io/atmos-ai/api.html &nbsp;·&nbsp; **Code:** https://github.com/muq221/atmos-ai
+
+[![Atmos AI dashboard demo](docs/demo.gif)](https://muq221.github.io/atmos-ai/)
+
+> The live demo runs fully in the browser on GitHub Pages from a saved snapshot of the API (sample-data mode,
+> 11 Dec 2025 06:00 IST). Click any airport on the left to switch. To run the real API, see **Run it** below.
 
 ## What it does
 
@@ -84,6 +89,16 @@ uvicorn atmos.api.app:app
 ```
 
 Docker: `docker compose up --build`
+
+## Publish the live demo (GitHub Pages)
+
+```bash
+python scripts/build_static_demo.py   # refreshes docs/ from the API (after pipeline + training)
+git add docs && git commit -m "Update demo" && git push
+```
+
+On GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: `main`, folder: `/docs` → Save.**
+The demo appears at `https://muq221.github.io/atmos-ai/` within 1–2 minutes.
 
 ## API
 

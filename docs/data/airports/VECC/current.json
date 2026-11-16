@@ -1,0 +1,19 @@
+{
+ "icao": "VECC",
+ "time": "2025-12-11T06:00:00",
+ "flight_category": "MVFR",
+ "temperature_c": 15.5,
+ "dewpoint_c": 14.0,
+ "humidity_pct": 90,
+ "qnh_hpa": 1011,
+ "visibility_m": 6090,
+ "ceiling_ft": null,
+ "cloud_cover_pct": 21,
+ "wind_direction_deg": 46,
+ "wind_speed_kt": 3,
+ "wind_gust_kt": 4,
+ "precip_mm": 0.0,
+ "cape_jkg": 30,
+ "weather_code": 1,
+ "density_altitude_ft": 141
+}

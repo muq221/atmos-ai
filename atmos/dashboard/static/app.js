@@ -10,7 +10,9 @@ Chart.defaults.font.family = "Inter, system-ui, sans-serif";
 Chart.defaults.font.size = 11;
 Chart.defaults.borderColor = "#1e2935";
 
-const get = (p) => fetch(API + p).then((r) => r.json());
+// Static mode (GitHub Pages demo): the same API responses are read from saved JSON files
+const STATIC = window.ATMOS_STATIC === true;
+const get = (p) => fetch(STATIC ? "data" + p.split("?")[0] + ".json" : API + p).then((r) => r.json());
 const chip = (c) => `<span class="chip" style="background:${CAT[c]}">${c}</span>`;
 const hhmm = (iso) => iso.slice(11, 16);
 const fmtVis = (m) => (m >= 9999 ? "10+ km" : m >= 1000 ? (m / 1000).toFixed(1) + " km" : m + " m");
@@ -28,7 +30,8 @@ async function loadNetwork() {
 
 async function loadMeta() {
   const [h, m] = await Promise.all([get("/health"), get("/models")]);
-  document.getElementById("mode").textContent = h.data_source === "sample" ? "Sample data mode" : "Live · Open-Meteo";
+  document.getElementById("mode").textContent = STATIC ? "Live demo · sample-data snapshot" : h.data_source === "sample" ? "Sample data mode" : "Live · Open-Meteo";
+  if (STATIC) { const a = document.querySelector(".pill.link"); a.href = "api.html"; }
   const t = new Date(h.now);
   document.getElementById("clock").textContent = t.toLocaleString("en-GB", { day: "2-digit", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" }) + " IST";
   const best = m.category.comparison[m.category.best_model];

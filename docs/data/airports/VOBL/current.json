@@ -1,0 +1,19 @@
+{
+ "icao": "VOBL",
+ "time": "2025-12-11T06:00:00",
+ "flight_category": "IFR",
+ "temperature_c": 15.7,
+ "dewpoint_c": 14.8,
+ "humidity_pct": 95,
+ "qnh_hpa": 1010,
+ "visibility_m": 4420,
+ "ceiling_ft": null,
+ "cloud_cover_pct": 16,
+ "wind_direction_deg": 76,
+ "wind_speed_kt": 3,
+ "wind_gust_kt": 3,
+ "precip_mm": 0.0,
+ "cape_jkg": 0,
+ "weather_code": 0,
+ "density_altitude_ft": 3898
+}

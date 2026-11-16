@@ -1,0 +1,47 @@
+{
+ "icao": "VOMM",
+ "valid_for_hours": 3,
+ "predicted_category": "VFR",
+ "confidence": 0.511,
+ "level": "NORMAL",
+ "score": 15,
+ "reasons": [
+  "Currently MVFR - visibility 6.2 km",
+  "Improving to VFR within 3 h"
+ ],
+ "runway": {
+  "best": {
+   "runway": "07",
+   "heading": 70,
+   "headwind_kt": 8.1,
+   "crosswind_kt": 2.6
+  },
+  "all": [
+   {
+    "runway": "07",
+    "heading": 70,
+    "headwind_kt": 8.1,
+    "crosswind_kt": 2.6
+   },
+   {
+    "runway": "12",
+    "heading": 120,
+    "headwind_kt": 3.2,
+    "crosswind_kt": 7.9
+   },
+   {
+    "runway": "30",
+    "heading": 300,
+    "headwind_kt": -3.2,
+    "crosswind_kt": 7.9
+   },
+   {
+    "runway": "25",
+    "heading": 250,
+    "headwind_kt": -8.1,
+    "crosswind_kt": 2.6
+   }
+  ]
+ },
+ "density_altitude_ft": 717
+}
