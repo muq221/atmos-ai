@@ -1,0 +1,6 @@
+services:
+  atmos-api:
+    build: .
+    ports: ["8000:8000"]
+    environment:
+      ATMOS_SOURCE: ${ATMOS_SOURCE:-sample}   # set to "openmeteo" for live data

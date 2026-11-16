@@ -1,0 +1,17 @@
+name: Refresh live data
+# Pulls the latest 90 days from Open-Meteo every day at 00:30 IST and retrains.
+on:
+  schedule: [{ cron: "0 19 * * *" }]
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - run: python -m atmos.pipeline.run --source openmeteo --start $(date -d '-90 days' +%F) --end $(date +%F)
+      - run: python -m atmos.models.train
+      - uses: actions/upload-artifact@v4
+        with: { name: atmos-models, path: models/ }
